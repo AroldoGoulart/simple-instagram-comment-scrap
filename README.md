@@ -2,10 +2,10 @@
 
 ## Installation
 1. Clone the repository:
-   - `git clone git@github.com:aroldogooulart/simple-instagram-comment-scrap.git`
+   - `git clone git@github.com:AroldoGoulart/simple-instagram-comment-scrap.git`
    or 
-   - `git clone https://github.com/aroldogooulart/simple-instagram-comment-scrap.git`
-   or download the [zip](https://github.com/aroldogooulart/simple-instagram-comment-scrap/archive/master.zip)
+   - `git clone https://github.com/AroldoGoulart/simple-instagram-comment-scrap.git`
+   or download the [zip](https://github.com/AroldoGoulart/simple-instagram-comment-scrap/archive/master.zip)
 
 2. Create a Virtual Environment (Recommended):
    - `pip install virtualenv`
@@ -19,14 +19,14 @@
    - `pip install -r requirements.txt`
 
 5. Login:
-   - Replace `'USER-NAME'` with your username in `username.send_keys ('add_user_name_here')`
-   - Replace `'PASSWORD'` with your password in `password.send_keys('add_password_here')`
+   - Replace `'USER-NAME'` with your username in `username.send_keys ('USER-NAME')`
+   - Replace `'PASSWORD'` with your password in `password.send_keys('PASSWORD')`
    - Note: We don't store your password.
 
 6. Run:
    - `python scraper.py post-url total-load-more-click`
    - Replace the URL with your target post URL.
-   - Example: `python scraper.py https://www.instagram.com/p/C5QopqcuGd0/ 1`
+   - Example: `python scraper.py https://www.instagram.com/rohitsharma45/ 5`
 
 7. Deactivate the virtual environment:
    - `deactivate`
@@ -37,4 +37,4 @@ https://github.com/Ajit-Acharya/InstagramScrapper
 This project draws inspiration from the InstagramScrapper repository by Ajit Acharya.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/aroldogooulart/simple-instagram-comment-scrap/blob/main/LICENSE.md)
+This project is licensed under the [MIT License](https://github.com/AroldoGoulart/simple-instagram-comment-scrap/blob/main/LICENSE.md)
