@@ -19,8 +19,8 @@
    - `pip install -r requirements.txt`
 
 5. Login:
-   - Replace `'USER-NAME'` with your username in `username.send_keys ('USER-NAME')`
-   - Replace `'PASSWORD'` with your password in `password.send_keys('PASSWORD')`
+   - Replace `'USER-NAME'` with your username in `username.send_keys ('add_user_name_here')`
+   - Replace `'PASSWORD'` with your password in `password.send_keys('add_password_here')`
    - Note: We don't store your password.
 
 6. Run:
